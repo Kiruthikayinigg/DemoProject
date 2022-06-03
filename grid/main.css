@@ -1,0 +1,16 @@
+.container{
+    margin: 20px;
+    display: grid;
+}
+.ele1{
+    background: brown;
+}
+.ele2{
+    background: lavender;
+}
+.ele3{
+    background: indigo;
+}
+.ele4{
+    background: purple;
+}

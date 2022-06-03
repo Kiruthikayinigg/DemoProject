@@ -1,0 +1,43 @@
+<html>
+<head>
+    <style>
+        .container{
+            height: 200px;
+            background-color: green;
+        }
+        .container2{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" style="height: 200px;"> Content 1</div>
+    <div class="container" style="height: 300px; background-color: red;"> Content 2 </div>
+    <button class="changeheight">Change height</button>
+    <script>
+        var cotnainer = document.querySelector('.container');
+        var btn = document.querySelector('.changeheight');
+
+    
+        btn.addEventListener('click',function() {
+            console.log('######');
+            // cotnainer.style.height = '100px';
+            // cotnainer.ca
+            // console.log( cotnainer.className =  );
+            // cotnainer.className = 'container2';
+            cotnainer.classList.add('container2');
+            // cotnainer.classList.remove('container');
+        });
+        // var cotnainer = document.querySelectorAll('.container');
+        // for( var i=0; i< cotnainer.length; i++ ){
+        //     console.log( cotnainer[i].style.height );
+        // }
+        console.log( cotnainer.style.height );
+        // console.dir( cotnainer );
+        //
+        // console.log( cotnainer.style.height );
+        // console.log( cotnainer.style['background-color'] );
+        // console.log( cotnainer.style.backgroundColor );
+    </script>
+</body>
+</html>

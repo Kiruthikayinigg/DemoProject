@@ -1,0 +1,48 @@
+<!-- two ways to access js file-->
+
+<!-- <script></script>
+<script src="../JS/example.js"></script> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/example.css">
+    
+</head>
+
+<body class="body">
+        <div class="container" id="division"></div>
+        <button class="btn" id="btn">Click</button>
+        
+
+<script>
+    //var A = document.querySelector('#btn');
+
+    var buttonTag = document.querySelector('.btn');
+    var containerTag = document.querySelector('.container');
+    var bodyTag = document.querySelector('body');
+
+
+    buttonTag.addEventListener('click',function() {
+        console.log("working");
+        // containerTag.style.backgroundColor = 'black';
+        // bodyTag.style.backgroundColor = 'red';
+        // containerTag.classList.remove('.container');
+
+        containerTag.classList.add("container-edited");
+
+    });
+
+    // bodyTag.addEventListener('click',function(){
+
+    //     bodyTag.style.backgroundColor = 'steelblue';
+
+    // });
+
+
+    </script>
+    </body>
+</html>

@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(70, 167, 199);
+}
+.ss{
+    list-style-type:none;
+    color:rgb(50, 24, 180);
+    background-color: bisque;
+    background: red;
+    text-align: center;
+    text-decoration:line-through;
+}
