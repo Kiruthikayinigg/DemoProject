@@ -1,0 +1,214 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+body{
+    width:100vw;
+    height:100vh;
+}
+:root{
+    --primary-color: rgb(239, 230, 230);
+}
+header{
+    height:10%;
+    text-align: center;
+    width:100%;
+    /* background-color: #ccc; */
+}
+.main{
+    width:100%;
+    background: var(--primary-color);
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:15px;
+}
+.main a{
+    text-decoration: none;
+    padding:10px;
+    color:rgb(72, 129, 220);
+}
+.head-text p{
+    word-spacing: 0.5rem;
+}
+.scopeimg{
+    width: 40vw;
+    height:50vh;
+    vertical-align: middle;
+}
+.images{
+    margin:2rem 0 0 5rem;
+    display: grid;
+    height: 52vh;
+    /* border:2px solid black; */
+    width: 50%;
+    gap:20px;
+    grid-template-columns: 1fr 1fr 1fr;
+  
+}
+.image-1{
+    background: url("/CSS/stethoscope/steth.webp");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    width:55vw;
+    height:50vh;
+    grid-column: 1 / 5;
+    
+}
+
+.image-2{   
+    background: url("/CSS/stethoscope/img1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    /* grid-area: middle2; */
+    }
+
+.image-2{
+    background: url("/CSS/stethoscope/img1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width:200px;
+    height: 200px;
+    /* grid-area:middle3; */
+
+}
+.image-3{
+    background: url("/CSS/stethoscope/img2.jpeg");
+    background-repeat: no-repeat;
+     background-size: cover;
+    width:200px;
+    height: 200px;
+
+}
+.image-4{
+    background: url("/CSS/stethoscope/img3.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width:200px;
+    height: 200px;
+
+}
+.image-5{
+    background: url("/CSS/stethoscope/img4.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width:200px;
+    height: 200px;
+
+}
+.image-1,.image-2,
+.image-3,.image-4,
+.image-5{
+    border:1px solid rgb(223, 216, 216);
+}
+
+.side-h{
+    /* text-align:left; */
+    padding: 10px;
+    width:30%;
+    height:10%;
+    position: absolute;
+    top:35%;
+    left:75%;
+    transform: translate(-50%,-50%);
+  }
+  .side-head {
+    margin: 0.2rem;
+    color: #0e0d0d;
+    font-size: 2rem;
+    font-weight:400;
+  }
+.rate{
+    color: deepskyblue;
+    font-weight: 20;
+    position: absolute;
+    bottom:-50%;
+}
+.clr {
+        /* text-align:left; */
+        padding: 10px;
+        color:grey;
+        width:30%;
+        height:10%;
+        position: absolute;
+        top:52%;
+        left:75%;
+        transform: translate(-50%,-50%);  
+        font-weight:200; 
+  }
+
+.side-i {
+    display: flex;
+    position: fixed;
+    top:55%;
+    right:27%;
+}
+
+.img-1{   
+    background: url("/CSS/stethoscope/img1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    width: 50px;
+    height: 50px;
+}
+.img-2{   
+    background: url("/CSS/stethoscope/img1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    width: 50px;
+    height: 50px;
+}
+.img-3{   
+    background: url("/CSS/stethoscope/img1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    width: 50px;
+    height: 50px;
+}
+.img-4{   
+    background: url("/CSS/stethoscope/img1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    width: 50px;
+    height: 50px;
+}
+.img-5{   
+    background: url("/CSS/stethoscope/img1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    width: 50px;
+    height: 50px;
+}
+.box{
+        border-box:white;
+        padding: 10px;
+        position: absolute;
+        top:62%;
+        left:60%;
+       
+}
+#quantity{
+        width:70px;
+        height:40px;
+        font-size: 25px;
+        text-align:center;
+
+}
+.cart{
+    
+}
