@@ -4,17 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Document</title>
     <link rel="stylesheet" href="gg.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a52013f040.js" crossorigin="anonymous">
     </script>
     </head>
-<body>
-    <div class="scopes"></div>
-    <!-- <a href="scope.html"> -->
-    <img src="./gg .png"></a>
-    </div>
     <header>
+    <section class="main-nav-bar">
+        <div class="main-nav-image">
+            <img src="gg-logo.webp">
+        </div>
+        <div class="main-nav-items">
+            <ul>
+                <li><a href="#">Collections </a></li>
+                <li><a href="#">Kitchen <i class="fa-solid fa-angle-down"></i></a></li>
+                <li><a href="#">Health <i class="fa-solid fa-angle-down"></i></a></li>
+                <li><a href="#">Bath <i class="fa-solid fa-angle-down"></i></a></li>
+                <li><a href="#">Support <i class="fa-solid fa-angle-down"></i></a></li>
+                <li><a href="#">Our Story</a></li>
+            </ul>
+        </div>
+        <div class="main-nav-bar-3">
+            <ul>
+                <li><a href="#"><span>Search</span></a></li>
+                <li><a href="#"><span>Sign In</span></a></li>
+                <li><a href="#">Cart</a></li>
+            </ul>
+        </div>
+    </section>
+    <!-- <div class="scopes"></div>
+     <a href="scope.html"> 
+    <img src="gg-logo.webp"></a>
+    </div> -->
+   
         <div class="main">
             <a href="#">Home</a>
             <a href="#">/ Stethoscopes</a>
@@ -47,32 +73,48 @@
                     <img src="img4.jpeg" height="50px" width="50px">
                 </div>
                 <div class="box">
-                    <label for="quantity"></label>
+                    <div>
+                        <label for="quantity"></label>
                     <input type="number" id="quantity" name="quantity">
-                    <a href="#" class="cart">Add to Cart</a>
-                    <a href="#" class="buy">Buy it Now</a>
+                    </div>
+                    <div class="cartbtn">Add to Cart</div>
+                    <div class="buybtn">Buy it Now</div>
+                    <!-- <a href="#" class="cart">Add to Cart</a>
+                    <a href="#" class="buy">Buy it Now</a> -->
                 </div>
                 <div class="wish">
-                    <p> ADD TO WISHLIST</p>
+                    <p> <i class="fa-solid fa-heart"></i> ADD TO WISHLIST</p>
+                    <div class="str1">
+                        <span class="fa fa-star checked1"></span>
+                        <span class="fa fa-star checked1"></span>
+                        <span class="fa fa-star checked1"></span>
+                        <span class="fa fa-star checked1"></span>
+                        <span class="fa fa-star checked1"></span>
+                    </div>
+                    <div class="star-rev"> 35 reviews</div>
                 </div>
                 <div class="type">
-                <p>TYPE : HEALTH</p> <br>
-                <p>SKU : 0619</p><br>
-                <p>AVAILABLE : AVAILABLE</p><br><br><br>
-                <p>Currently there are 17 people looking at this product.</p><br><br><br>
-                <hr><br>
-                <p>Share:</p>
-                </div>
+                <p>TYPE : HEALTH</p>
+                <p>SKU : 0619</p>
+                <p>AVAILABLE : AVAILABLE</p>
+                </div><br>
+                <p class="current">Currently there are <span class="num">17</span> people looking at this product.</p><br><br><hr>
+                <p class="share"> Share:
+                    <span><i class="fa-brands fa-facebook-f"></i></span>
+                    <span><i class="fa-brands fa-twitter"></i></span>
+                </p>
                 </section>
             </section>
                 <div class="desc">
-                 <h1>Description</h1><br>
-                  <p class="para">A premium stethoscope that is great for use in a busy clinical setting, school, or at home. The floating, tunable diaphragm allows you to focus in on the most<br>
-                  important diagnostic sounds across a wider range of patients. Pinpoint the low frequencies, the high frequencies, and everything in between. Every unit gets tested<br>
-                  for acoustic integrity before leaving the factory—just a small example of Greater Goods' standards for quality. And, every feature is designed for an all-around <br>comfortable experience and top performance: durable, single tubing, tight-seal ear tips, and a heavy gauge alloy.
-</p><br>
-<p>Features:</p>
-<ul id="lists">
+                 <h1>Description</h1>
+                  <p class="para">A premium stethoscope that is great for use in a busy clinical setting, school, or at home. The floating, tunable diaphragm allows you to focus in on the most
+                  important diagnostic sounds across a wider range of patients. Pinpoint the low frequencies, the high frequencies, and everything in between. Every unit gets tested
+                  for acoustic integrity before leaving the factory—just a small example of Greater Goods' standards for quality. And, every feature is designed for an all-around 
+                  comfortable experience and top performance: durable, single tubing, tight-seal ear tips, and a heavy gauge alloy.
+                  </p>
+                
+    <ul id="lists">
+    <h2>Features:</h2><br>
     <li class="list-item">Spring-in, durable, single tubing</li>
     <li class="list-item">Replaceable, tight-seal ear tips</li>
     <li class="list-item">Adjustable, stainless steel headset</li>
@@ -84,32 +126,35 @@
     <li class="list-item">Free replacements on ear tips and diaphragms for life of product</li>
     <li class="list-item">Lightweight build</li>
     <li class="list-item">Non-chill chest piece</li>
-</ul>
+    </ul>
  </div>
  <div class="relate">
      <h1>Related products</h1>
  </div>
  <section class="lastimg">
  <div>
-     <div>
+     <div class="classic-imgs">
      <img src="img1.jpeg" class="imgs">
+     <img src="img2.jpeg" class="hover-imgs">
     </div>
      <p class="Classic">Classic Design Dual-Head Stethoscope</p>
      <p class="dollar">$24.88<s> $29.5 </s>
- </div>
+</div>
  <div>
-    <img src="img4.jpeg" class="imgs1">
+ <div class="classic-imgs">
+    <img src="img4.jpeg" class="imgs">
+    <img src="img3.jpeg" class="hover-imgs">
+</div>
     <p class="Classic">Greater Goods Starter Stethoscope</p>
     <p class="dollar">$14.95 <s>$19.95</s></p>
  </div>
 </section>
 <div class="back">
-    <a href="#"><i class="fa-solid fa-arrow-left"></i>Back to Stethoscope</a>
+    <a href="#"><span><i class="fa-solid fa-arrow-left"></i> </span>Back to Stethoscopes</a>
 </div>
 <section class="reviews">
-
 <div class="rating">
-    <h1 >4.9</h1>
+    <h1 ><strong>4.9</strong></h1>
     <div class="stars">
         <span class="fa fa-star checked1"></span>
         <span class="fa fa-star checked1"></span>
@@ -158,7 +203,7 @@
             <span class="far fa-star checked"></span>
         </div>
 
-        </div>
+    </div>
 
         <div class="main-bar">
             <div class="bar">
@@ -176,15 +221,11 @@
             <div class="bar">
                 <div class="innerbar" style="height:100%; width:30%;"></div>
             </div>
-        
         </div>
-      
-    </div>  
-    
-</div>
-<div class="review-questions">
-        <button class="ask">Ask a Question</button>
-        <button class="rev">Write a review</button>
+ </div>  
+    <div class="review-questions">
+        <button class="ask"><i class="fa-solid fa-comments"></i> Ask a Question</button>
+        <button class="rev"><i class="fa-solid fa-pen-to-square"></i> Write a review</button>
     </div>
 </section>
 <section class="review-main-section">
@@ -218,14 +259,14 @@
                 </div>
                 </div>
                 <div class="dat">05/15/2021</div>
-                <p class="product" >I Love this product</p>
-                <div class="ky-ver">
-                <p class="ky">Kylie </p>
-                <p class="ver"> verified Buyer</p>
-                <div class="share">
-                    <span class="fa-solid fa-share-from-square"></span>
-                    <p class="shr">share</p>
-                    <p>Was this helpful?</p>
+                <div class="text-field">
+                    <p class="product" >I Love this product</p>
+                    <!-- <div class="ky-ver"> -->
+                    <p class="ky">Kylie <span>verified buyer</span></p>
+                    
+                    <!-- <div class="share"> -->
+                        <a class="fa-solid fa-share-from-square"><span>share</span></a>
+                        <p>Was this helpful?</p>
                 </div>
                
                 </div>
@@ -243,20 +284,20 @@
                 </div>
             </div>
             <div class="dat">05/15/2021</div>
-            <p class="product" >I Love this product</p>
-            <div class="ky-ver">
-            <p class="ky">Kylie </p>
-            <p class="ver"> verified Buyer</p>
-            <div class="share">
-                <span class="fa-solid fa-share-from-square"></span>
-                <p class="shr">share</p>
-                <p>Was this helpful?</p>
-            </div>
+                <div class="text-field">
+                    <p class="product" >I Love this product</p>
+                    <!-- <div class="ky-ver"> -->
+                    <p class="ky">Kylie <span>verified buyer</span></p>
+                    
+                    <!-- <div class="share"> -->
+                        <a class="fa-solid fa-share-from-square"><span>share</span></a>
+                        <p>Was this helpful?</p>
+                </div>
         </div>
         </div> 
            
         
-        <div class="box2">
+        <div class="box3">
             <div class="str-dat">
                 <div class="str">
                         <span class="fa fa-star checked1"></span>
@@ -267,20 +308,20 @@
                 </div>
             </div>
             <div class="dat">05/15/2021</div>
-            <p class="product" >I Love this product</p>
-            <div class="ky-ver">
-            <p class="ky">Kylie </p>
-            <p class="ver"> verified Buyer</p>
-            <div class="share">
-                <span class="fa-solid fa-share-from-square"></span>
-                <p class="shr">share</p>
-                <p>Was this helpful?</p>
-            </div>
+                <div class="text-field">
+                    <p class="product" >I Love this product</p>
+                    <!-- <div class="ky-ver"> -->
+                    <p class="ky">Kylie <span>verified buyer</span></p>
+                    
+                    <!-- <div class="share"> -->
+                        <a class="fa-solid fa-share-from-square"><span>share</span></a>
+                        <p>Was this helpful?</p>
+                </div>
             
             </div>
         </div>
 
-        <div class="box2">
+        <div class="box4">
             <div class="str-dat">
                 <div class="str">
                         <span class="fa fa-star checked1"></span>
@@ -291,20 +332,20 @@
                 </div>
             </div>
             <div class="dat">05/15/2021</div>
-            <p class="product" >I Love this product</p>
-            <div class="ky-ver">
-            <p class="ky">Kylie </p>
-            <p class="ver"> verified Buyer</p>
-            <div class="share">
-                <span class="fa-solid fa-share-from-square"></span>
-                <p class="shr">share</p>
-                <p>Was this helpful?</p>
-            </div>
+                <div class="text-field">
+                    <p class="product" >I Love this product</p>
+                    <!-- <div class="ky-ver"> -->
+                    <p class="ky">Kylie <span>verified buyer</span></p>
+                    
+                    <!-- <div class="share"> -->
+                        <a class="fa-solid fa-share-from-square"><span>share</span></a>
+                        <p>Was this helpful?</p>
+                </div>
             
             </div>
         </div>
 
-        <div class="box2">
+        <div class="box5">
             <div class="str-dat">
                 <div class="str">
                         <span class="fa fa-star checked1"></span>
@@ -315,20 +356,20 @@
                 </div>
             </div>
             <div class="dat">05/15/2021</div>
-            <p class="product" >I Love this product</p>
-            <div class="ky-ver">
-            <p class="ky">Kylie </p>
-            <p class="ver"> verified Buyer</p>
-            <div class="share">
-                <span class="fa-solid fa-share-from-square"></span>
-                <p class="shr">share</p>
-                <p>Was this helpful?</p>
+            <div class="text-field">
+                <p class="product" >I Love this product</p>
+                <!-- <div class="ky-ver"> -->
+                <p class="ky">Kylie <span>verified buyer</span></p>
+                
+                <!-- <div class="share"> -->
+                    <a class="fa-solid fa-share-from-square"><span>share</span></a>
+                    <p>Was this helpful?</p>
             </div>
             
             </div>
         </div>
 
-        <div class="box2">
+        <div class="box6">
             <div class="str-dat">
                 <div class="str">
                         <span class="fa fa-star checked1"></span>
@@ -339,20 +380,19 @@
                 </div>
             </div>
             <div class="dat">05/15/2021</div>
-            <p class="product" >I Love this product</p>
-            <div class="ky-ver">
-            <p class="ky">Kylie </p>
-            <p class="ver"> verified Buyer</p>
-            <div class="share">
-                <span class="fa-solid fa-share-from-square"></span>
-                <p class="shr">share</p>
-                <p>Was this helpful?</p>
+            <div class="text-field">
+                <p class="product" >I Love this product</p>
+                <!-- <div class="ky-ver"> -->
+                <p class="ky">Kylie <span>verified buyer</span></p>
+                
+                <!-- <div class="share"> -->
+                    <a class="fa-solid fa-share-from-square"><span>share</span></a>
+                    <p>Was this helpful?</p>
             </div>
-            
             </div>
         </div>
 
-        <div class="box2">
+        <div class="box7">
             <div class="str-dat">
                 <div class="str">
                         <span class="fa fa-star checked1"></span>
@@ -363,20 +403,20 @@
                 </div>
             </div>
             <div class="dat">05/15/2021</div>
-            <p class="product" >I Love this product</p>
-            <div class="ky-ver">
-            <p class="ky">Kylie </p>
-            <p class="ver"> verified Buyer</p>
-            <div class="share">
-                <span class="fa-solid fa-share-from-square"></span>
-                <p class="shr">share</p>
-                <p>Was this helpful?</p>
+            <div class="text-field">
+                <p class="product" >I Love this product</p>
+                <!-- <div class="ky-ver"> -->
+                <p class="ky">Kylie <span>verified buyer</span></p>
+                
+                <!-- <div class="share"> -->
+                    <a class="fa-solid fa-share-from-square"><span>share</span></a>
+                    <p>Was this helpful?</p>
             </div>
             
             </div>
         </div>
 
-        <div class="box2">
+        <div class="box8">
             <div class="str-dat">
                 <div class="str">
                         <span class="fa fa-star checked1"></span>
@@ -386,23 +426,21 @@
                         <span class="fa fa-star checked1"></span>
                 </div>
             </div>
-            <div class="dat">05/15/2021</div>
-            <p class="product" >I Love this product</p>
-            <div class="ky-ver">
-            <p class="ky">Kylie </p>
-            <p class="ver"> verified Buyer</p>
-            <div class="share">
-                <span class="fa-solid fa-share-from-square"></span>
-                <p class="shr">share</p>
-                <p>Was this helpful?</p>
+             <div class="dat">05/15/2021</div>
+            <div class="text-field">
+                <p class="product" >I Love this product</p>
+                <!-- <div class="ky-ver"> -->
+                <p class="ky">Kylie <span>verified buyer</span></p>
+                
+                <!-- <div class="share"> -->
+                    <a class="fa-solid fa-share-from-square"><span>share</span></a>
+                    <p>Was this helpful?</p>
             </div>
             
             </div>
         </div>
 
-        
-
-        </div>
+    </div>
     </section>
 </section>
 <div class="load-more">
@@ -455,7 +493,6 @@
 </section>
 </body>
 </html>
-
 
 
 
