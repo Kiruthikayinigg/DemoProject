@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="minesweeper.css" />
+    <script src="minesweeper.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">MINESWEEPER GAME</h1>
+      <form>
+        <label for="quantity" class="ro" >Rows</label>
+        <input type="number" id="row" name="quantity" value="5" />
+        <label for="quantity" class="ro">Columns</label>
+        <input type="number" id="column" name="quantity" value="5" />
+        <label for="quantity" class="ro">Mines</label>
+        <input type="number" id="mine" name="quantity" value="3" />
+      </form><br>
+      <button id="strt" onclick="quantity(); this.onclick=null;">Start</button>
+      <button id="res" onclick="reset()">Reset</button>
+      <div id="text-view">GAME OVER</div>
+    </div>
+    <div id="box"></div>
+  </body>
+</html>
+<!-- 
+oncontextmenu="event.preventDefault();" -->
